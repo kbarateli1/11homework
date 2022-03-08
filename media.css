@@ -1,91 +1,77 @@
-/* 
-responsive styles */
 
-
-  @media(max-width:768px){
-    header{
-        background: none;
-        background-image: none;
-        
-        background-color: blue;
-        width: 100%;
-        display: flex;
-        align-items: center;
-       justify-content: center;
-       
-      
+@media (max-width: 375px) {
+    header {
+      background-image: linear-gradient(to right, #0020f4, rgb(221, 17, 17));
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 185px;
     }
-    .headerul{
-        display: none;
+    header nav {
+      display: none;
     }
-    .logo{
-        width: 97px;
-       height: 55px;
-       
+    .centerDiv img {
+      position: relative;
+      left: 20px;
+      top: -30px;
+      width: 300px;
     }
-
-    /* .centerimgdiv{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    } */
-    .center{
-        
-        width: 334px;
-        height: 210px;
-        
+    .firstsection {
+      padding: 18px;
+      padding-top: 0;
     }
-
-    .firstsection{
-
-        display: flex;
-        justify-content: center;
-        justify-content: space-around;
+    .firstsection h3 {
+      font-size: 14px;
+      text-align: left;
     }
-
-    .firstsection h3{
-        width: 334px;
-        height: 45px;
-        font-size: 18px;
-        
-        
+    .buildingimages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
     }
-    .buildingimages{
-        margin-top: 20px;
-        display: grid;
-        grid-template-columns: 220px 220px;
-        grid-template-rows: 220px 220px;
+    .buildingimages :nth-child(5) {
+      display: none;
     }
-
-   
-    .firsttext{
-        width: 334px;
-        height: 461px;
-        
+    .buildingimages img {
+      width: 120px;
+      padding: 0;
     }
-
-    .secondtext{
-        display: none;
+    .firstsection p {
+      padding: 0;
     }
-    .thirdtext{
-        display: none;
+    .display {
+      display: none;
     }
-    .fourthtext{
-        display: none;
+  
+    /*  */
+    .secondsection{
+      padding: 0;
+  
     }
-
-
-
-
-    footer{
-        width: 100%;
+    .big{
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      /* flex-wrap: wrap-reverse; */
     }
-    
-    .leftside{
-        display: flex;
-        justify-content: center;
-        flex-direction: column-reverse;
-        width: 375px;
-        height: 1021px;
+    .big h2{
+      font-size: 18px;
+      margin: 0 60px;
+      text-align: center;
     }
-}
+    .text{
+      display: none;
+    }
+    .newinformation {
+      width: 100%;
+      height: 40px;
+      border: none;
+    }
+  iframe{
+    width: 300px;
+    margin-top: 30px;
+  }
+  
+  }
+  
