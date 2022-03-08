@@ -3,54 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="description" content="Free Web tutorials">
+    <meta name="description" content="Free Web tutorials">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="John Doe"> -->
+    <meta name="author" content="John Doe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:url" content="https://suzivo.github.io/lesson-11/" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="რატომ ვიყენებთ მას და საიდან მოდის ეს ტექსტი?" />
     <meta property="og:description" content="ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. " />
-    <meta property="og:image" content="https://gorilasoftware.com.br/wp-content/uploads/2021/11/Lorem-Ipsum-768x492-1.png" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>lesson 11</title>
 </head>
 <body>
      <div class="container">
         <header>
-            <img src="img/Group 2.png" alt="logo">
+            <img class="logo" src="img/Group 2.png" alt="logo">
             <nav>
-                <ul>
+                <ul class="headerul">
                     <li>მთავარი</li>
                     <li>ჩვენ შესახებ</li>
                     <li>სერვისები</li>
                     <li>პროექტები</li>
                     <li>პარტნიორები</li>
-                    <li>
-                    <div class="centerbutton">
-                        <button class="contact">კონტაქტი</button>
-                    </div>
-
-                    </li>
+                   <li><button class="contact">კონტაქტი</button></li>  
                 </ul>
+                
             </nav>
         </header>
-
-
-
-
-
         <section class="firstsection">
-            <img class="center" src="img/Rectangle 1.png" alt="important picture">
+            <div class="centerimgdiv">
+                <img  src="img/Rectangle 1.png" alt="important picture" class="center">
+            </div>
             <h3>რატომ ვიყენებთ მას და საიდან მოდის ეს ტექსტი?</h3>
             <div class="buildingimages">
                 <img class="building" src="img/Rectangle 1.png" alt="first">
                 <img class="building" src="img/Rectangle 3.png" alt="second">
                 <img class="building" src="img/Rectangle 94.png" alt="third">
-                <img class="building" src="img/Rectangle 93.png alt="third">
+                <img class="building" src="img/Rectangle 93.png" alt="fourth">
                 <img class="building" src="img/Rectangle 96.png" alt="fifth">
             </div>
-            <p>
+            <p class="firsttext">
                 ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს 
                 და დიზაინის აღქმაში ხელი შეუშალოს. 
                 Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, 
@@ -62,7 +54,7 @@
                 ზოგი შემთხვევით დაშვებული შეცდომის გამო, 
                 ზოგი კი — განზრახ, ხუმრობით.
             </p>
-            <p>
+            <p class="secondtext">
                 გავრცელებული მოსაზრებით, Lorem Ipsum შემთხვევითი ტექსტი სულაც არაა. 
                 მისი ფესვები ჯერკიდევ ჩვ. წ. აღ-მდე 45 წლის დროინდელი კლასიკური ლათინური ლიტერატურიდან მოდის. 
                 ვირჯინიის შტატში მდებარე ჰემპდენ-სიდნეის კოლეჯის პროფესორმა რიჩარდ მაკკლინტოკმა აიღო ერთ-ერთი ყველაზე იშვიათი ლათინური სიტყვა “consectetur” Lorem Ipsum-პასაჟიდან 
@@ -71,12 +63,12 @@
                 ეს წიგნი ეთიკის თეორიის ტრაქტატია, რომელიც რენესანსის პერიოდში ძალიან იყო გავრცელებული. 
                 Lorem Ipsum-ის პირველი ხაზი, “Lorem ipsum dolor sit amet…” სწორედ ამ წიგნის 1.10.32 თავიდანაა. 
             </p>
-            <p>
+            <p class="thirdtext">
                 მათთვის, ვისაც აინტერესებს, ქვევით მოყვანილია Lorem Ipsum-ის ორიგინალი ნაწყვეტი 1500-იანი წლებიდან. 
                 ასევე შეგიძლიათ ნახოთ 1.10.32 და 1.10.33 თავები ციცერონის “de Finibus Bonorum et Malorum”-დან, 
                 რომელსაც თან ერთვის 1914 წელს ჰ. რექჰამის შესრულებული ინგლისურენოვანი თარგმანი.
             </p>
-            <p>
+            <p class="fourthtext">
                 დღეს უკვე Lorem Ipsum-პასაჟის უამრავი ვერსია არსებობს. მათი დიდი ნაწილი ხუმრობით არის შეცვლილი, ბევრი კი უბრალოდ სიტყვების შემთხვევითი გენერირებით დაიწერა. 
                 ინტერნეტში არსებული გენერატორები, როგორც წესი, წინასწარ განსაზღვრული ტექსტის ნაგლეჯს იმეორებენ ხოლმე, ამიტომ ეს პირველი ნამდვილი გენერატორია. 
                 იგი რთული და მართებული სტრუქტურის წინადადებების ასაწყობად 200-მდე ლათინური სიტყვისგან შემდგარ ლექსიკონს იყენებს. 
@@ -87,10 +79,12 @@
         </div>
         </section>
 
-        <section class="secondsection">
+
+        <div class="secondsection">
             <div class="big">
-                <div class="leftside">
+             <div class="leftside">
                 <h2>კონტაქტი</h2>
+        
                 <div class="text">
                     <p>
                     Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
@@ -112,53 +106,65 @@
                     ></iframe>
                     </div>
                 </div>
-                <div class="icons">
-                    <img src="img/Group 77.svg" alt="icon2" />
-                    <p>+995555444333</p>
-                    <img src="img/Group 78.svg" alt="icon4" />
-                    <p>example@gmail.com</p>
-                </div>
-                </div>
-                <div class="formular-side">
-                    <form action="">
-                        <div class="form-row">
-                            <label for="username">სახელი, გვარი</label>
-                            <input type="text" placeholder="" id="username"/>
-                        </div>
-                        <hr>
-                        <div class="form-row">
-                            <label for="email">ელ. ფოსტა</label>
-                            <input type="email" placeholder="" id="email"/>
-                        </div>  
-                        <hr>                  
-                        <div class="form-row">
-                            <label for="phone">ტელეფონის ნომერი</label>
-                            <input type="phone" placeholder="" id="phone"/>
-                        </div>  
-                        <hr>                  
-                        <div class="form-row">
-                            <label for="text area">შეტყობინება</label>
-                            <input type="text area" placeholder="" id="text area"/>
-                        </div>
-                        <hr>
-                        <button type="submit">
-                            <h4>გაგზავნა</h4>
-                        </button>
-                </div>   
-                <div class="lastbottomdiv">
-                    <footer>
-                        <h5>
-                            ყველა უფლება დაცულია
-                        </h5>
-                        <div class="right-side">
-                            <p class="left">დამზადებულია</p>
-                            <img class="heart" src="images/heart.png" alt="redheart">
-                            <img class="logo" src="images/web logo.png" alt="last logo"> -->
-                        </div>
-                    </footer>
-                </div>
-          </section>
-        
+      
+              
+                <nav class="icon">
+                    <ul class="emailandphone"> 
+                        <li class="phone"> <img src="img/Group 77.svg" alt="icon2" /></li>
+                        <li class="number">  +995 555 444 333</li>
+                        <li> <img src="img/Group 78.svg" alt="icon4" /></li>
+                        <li class="number">example@gmail.com</li>
+                    </ul>  
+                </nav>
+            </div>
+      
+            <div class="rightside">
+                <form action="">
+                    <div class="form-row">
+                        <label for="username">სახელი, გვარი</label>
+                        <input type="text" placeholder="" id="username">
+                    </div>
+                    <hr>
+                    <div class="form-row">
+                        <label for="email">ელ. ფოსტა</label>
+                        <input type="email" placeholder="" id="email"/>
+                    </div>  
+                    <hr>                  
+                    <div class="form-row">
+                        <label for="phone">ტელეფონის ნომერი</label>
+                        <input type="phone" placeholder="" id="phone"/>
+                    </div>  
+                    <hr>                  
+                    <div class="form-row">
+                        <label for="text area">შეტყობინება</label>
+                        <input type="text area" placeholder="" id="text area"/>
+                    </div>
+                    <hr>
+                    <button type="submit" class="submitbutton">
+                        <h3>გაგზავნა</h3>
+                    </button>
+                  </form>
+          </div>
+         
+
+          
+      
+        </div>
+        <footer>
+            <div leftsidefooter>
+                 <p>ყველა უფლება დაცულია</p>
+            </div>
+            <div class="rightsidefooter">
+                <p>დამზადებულია</p>
+                    <div class="heart">
+                        <img src="img/Group 73.svg" alt="hearticon">
+                        <span>-ით</span>
+                    </div>
+                <img src="img/Group 72.png" alt="anothericon">
+            </div>
+    
+    
+        </footer>
 
 </body>
 </html>
